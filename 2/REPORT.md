@@ -132,10 +132,14 @@ outputer_layer = Dense(output_dim = 4, activation = 'softmax')(layer_2)
 #### Результат
 
 Для первого теста (50/50)
+
 ![Результаты](report/211.png)
 ![Результаты](report/212.png)
 
+
+
 Для второго теста (80/20)
+
 ![Результаты](report/221.png)
 ![Результаты](report/222.png)
 
@@ -176,10 +180,14 @@ outpt = Dense(4, kernel_initializer="glorot_uniform", activation='softmax')(drop
 #### Результат
 
 Для первого теста (50/50)
+
 ![Результаты](report/311.png)
 ![Результаты](report/312.png)
 
+
+
 Для второго теста (80/20)
+
 ![Результаты](report/321.png)
 ![Результаты](report/322.png)
 
